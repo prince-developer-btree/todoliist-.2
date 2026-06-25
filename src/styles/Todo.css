@@ -1,0 +1,44 @@
+.todo-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.todo-container h2 {
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #380857;
+  border-radius: 8px;
+}
+
+.add-btn {
+  padding: 12px 20px;
+  margin-left: 10px;
+  background: rgb(13, 79, 179);
+  color: rgb(101, 204, 4);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: rgb(219, 187, 6);
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-list li {
+  background: white;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
